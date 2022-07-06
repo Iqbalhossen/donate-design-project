@@ -2,7 +2,11 @@ body{
     font-family: 'Merriweather Sans', sans-serif;
     margin: 0;
 }
+a{
+    text-decoration: none;
+}
 
+/*---------- Header area start -----------*/
 .header-area{
     background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
@@ -21,7 +25,6 @@ body{
     color: #fff;
     margin-bottom: 20px;
 }
-
 .header-content p{
     color: #fff;
     width: 75%;
@@ -31,32 +34,28 @@ body{
     font-weight: 300;
     line-height: 32px;
 }
-
 .donate-btn{
-    text-decoration: none;
     font-size: 25px;
     font-weight: 400;
     color: #fff;
     border: 1px solid rgba(241, 62, 31, 0.801);
     border-radius: 5px;
     padding: 13px 25px;
-    background-color: rgba(241, 62, 31, 0.801);
-    
-
+    background-color: rgba(241, 62, 31, 0.801);    
 }
+/*---------- Header area End -----------*/
 
+/*---------- Donate area start -----------*/
 .donate-area{
     text-align: center;
     padding-top: 100px;
 }
-
 .donate-content-area h2{
     color: #000;
     font-size: 50px;
     font-weight: 600;
     margin: 0;
 }
-
 .paragraph-content{
     color: rgba(29, 28, 28, 0.432);
     font-size: 20px;
@@ -67,7 +66,6 @@ body{
    padding: 15px 0px;
    
 }
-
 .donate-amount-area{
     text-align: center;
     padding: 70px 0px;
@@ -78,7 +76,6 @@ body{
 .input-hide{
     display: none;
 }
-
 .donate-amount label{
     padding: 35px 20px;
     margin-right: 20px;
@@ -88,14 +85,12 @@ body{
     font-size: 30px;
     font-weight: 700;
 }
-
 .donate-amount input[type=radio]:checked + .donate{
     background-color: rgba(226, 93, 93, 0.315);
     border: 2px solid rgba(226, 93, 93, 0.747);
     border-radius: 5px;
     color: rgba(255, 0, 0, 0.685);
 }
-
 .donate-input input[type=text] {
     font-size: 20px;
     width: 60%;
@@ -107,43 +102,35 @@ body{
     border: none;
     border-bottom: 1px solid rgba(41, 40, 40, 0.521);
   }
-
-
 .donate-input input:focus{
     outline: none;
     border-bottom: 2px solid rgba(41, 40, 40, 0.521);
     box-shadow: 0px 2px 4px rgba(41, 40, 40, 0.568);
     
 }
-
-  
-
 #donate-submit{
     margin-top: 20px;
 }
+/*---------- Donate area End -----------*/
 
+/*---------- Donate plane area start -----------*/
 .donate-plane-area{
     padding-top: 50px;
 }
-
 .donate-plane-content {
     text-align: center;
     padding-bottom: 50px;
 }
-
 .donate-plane-content h1{
     font-size: 45px;
     font-weight: 700;
     margin: 0;
     padding-bottom: 10px;
 }
-
-
 .donate-plane-grid-area{
     display: flex;
     padding: 10px 70px 30px 70px;
 }
-
 .col-4{
     padding: 60px 25px;
     margin-right: 20px;
@@ -162,7 +149,6 @@ body{
     text-align: justify;
     color: rgba(50, 51, 51, 0.781);
 }
-
 #food{
     background-color: rgba(43, 146, 177, 0.103);
 }
@@ -172,7 +158,63 @@ body{
 #frame{
     background-color: rgba(243, 120, 49, 0.158);
 }
+/*---------- Donate plane area End -----------*/
 
+/*---------- News area start -----------*/
+.news-area{
+    padding: 70px 30px 70px 60px;  
+}
+.news-content{
+    text-align: center;
+}
+.news-content h1{
+    font-size: 50px;
+    margin: 0;
+}
+.news{
+    display: flex;
+}
+.news-box{
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.news-box img{
+    width: 100%;
+    border-radius: 2px;
+}
+.news-box span{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(29, 28, 28, 0.432);
+}
+.news-box h1{
+    margin: 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.904);
+    padding-top: 18px;
+    padding-bottom: 5px;
+}
+.news-box p{
+    margin: 0;
+    font-size: 17px;
+    font-weight: 400;
+    color:  rgba(29, 28, 28, 0.432);
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.read-more-btn{
+    background-color: rgba(241, 62, 31, 0.801);
+    padding: 10px 20px;
+    color: #ffff;
+    border-radius: 3px;
+    
+}
+/*---------- News area End -----------*/
+
+/*---------- Get Update area start -----------*/
 .get-update-area{
     text-align: center;
     padding: 50px 0px;
@@ -184,14 +226,12 @@ body{
     font-size: 45px;
     margin: 0;
 }
-
 .subscribe-area{
     width: 60%;
     margin: auto;
     padding: 80px 0;
     background-color: rgba(243, 120, 49, 0.158);
     border-radius: 5px;
-
 }
 .subscribe-area input{
     width: 30%;
@@ -201,7 +241,6 @@ body{
     box-sizing: border-box;
     border: 3px solid #ccc;
 }
-
 .subscribe-area button{
     font-size: 16px;
     font-weight: 400;
@@ -212,7 +251,9 @@ body{
     background-color: rgba(241, 62, 31, 0.801);
     margin: -3px;
 }
+/*---------- Get Update area End -----------*/
 
+/*---------- Footer area start -----------*/
 .footer-area{
     padding: 40px 0px;
     background-color: rgb(18, 19, 32);
@@ -232,3 +273,5 @@ body{
     color: rgb(255, 255, 255);
     padding-bottom: 20px;
 }
+
+/*---------- Footer area End -----------*/
